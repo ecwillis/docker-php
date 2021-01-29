@@ -3,6 +3,4 @@ web:
   volumes: 
     - './app:/var/www/html'
   ports:
-    - 80
-  environment:
-    VIRTUAL_HOST: 'php-base.*'
+    - 80:80
